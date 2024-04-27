@@ -191,7 +191,7 @@ h1{
 }
 
 .about-content {
-    background-image: url('/images/samuele-errico-piccarini-FMbWFDiVRPs-unsplash.jpg'); 
+    background-image: url('images/samuele-errico-piccarini-FMbWFDiVRPs-unsplash.jpg'); 
     background-size: cover; 
     background-position: center; 
     height: 100vh; 
@@ -218,7 +218,7 @@ h1{
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("/images/sky.jpg"); /* Add your background image path */
+    background-image: url("images/sky.jpg"); /* Add your background image path */
     background-size: cover;
     background-position: center;
     z-index: -1; /* Ensure the background is behind other content */
