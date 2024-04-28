@@ -226,12 +226,12 @@ h1{
 
 
 .car-container {
-    max-width: 1200px; /* Adjust as needed */
-    margin: 100px auto 0 auto; /* Center horizontally and add top margin */
-    padding: 20px; /* Add padding for better spacing */
-    display: flex; /* Use Flexbox */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    max-width: 1200px; 
+    margin: 100px auto 0 auto; 
+    padding: 20px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 .car-row {
     display: grid;
@@ -273,6 +273,28 @@ h1{
 @media (max-width: 768px) {
     .car-row {
         grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        font-size: 120%; 
+    }
+
+    .navbar {
+        flex-direction: column; 
+    }
+
+    .navbar a {
+        margin: 10px 0; 
+    }
+
+    .about-text {
+        max-width: 90%; 
+    }
+
+    .car-row {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
     }
 }
 
